@@ -53,7 +53,7 @@
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a href="../index.html">Dashboard</a></li>
+                    <li><a href="index.html">Dashboard</a></li>
                   </ul>
                 </li>
                 <li><a><i class="fa fa-edit"></i> Employee <span class="fa fa-chevron-down"></span></a>
@@ -63,7 +63,7 @@
                         <li><a href="./employee_rule.html">Employe Rule</a></li>
                         <li><a href="./designation.html">Designation</a></li>
                         <li><a href="./grade_bonus.html">Grade & Bonus</a></li>
-                        <li><a href="./notification.html">Notification</a></li>
+                        <li><a href="./approval.html">Approval</a></li>
                       </ul>
                 </li>
               </ul>
@@ -153,29 +153,13 @@
       <!-- page content -->
       <div class="right_col" role="main">
         <div class="">
-          <div class="page-title">
-            <div class="title_left">
-              <h3>Notification</h3>
-            </div>
-
-            <div class="title_right">
-              <div class="col-md-5 col-sm-5 form-group pull-right top_search">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Go!</button>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="clearfix"></div>
 
           <div class="row">
             <div class="col-md-12 col-sm-12">
               <div class="x_panel">
                 <div class="x_title">
-                  <h2>Notification <small>Field</small></h2>
+                  <h2>Employee Approval <small>Field</small></h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -192,101 +176,50 @@
                   </ul>
                   <div class="clearfix"></div>
                 </div>
-                <div class="x_content">
-                  <form class="" action="" method="post" novalidate>
-                    </p>
-                    <span class="section">Create new Notification</span>
                     <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Notification Name<span
+                      <label class="col-form-label col-md-3 col-sm-3  label-align">Search Employee Name<span
                           class="required">*</span></label>
                       <div class="col-md-6 col-sm-6">
                         <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
                           placeholder="ex. John f. Kennedy" required="required" />
                       </div>
                     </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Notification File<span
+                     <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align">Select regin date<span
                           class="required">*</span></label>
                       <div class="col-md-6 col-sm-6">
-                        <input type="file" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                        <input type="date" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
                           placeholder="ex. John f. Kennedy" required="required" />
                       </div>
                     </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Notification Detail<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <textarea class="form-control"></textarea> 
-                      </div>
-                    </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Status<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <select class="form-control" name="status" required>
-                            <option value="">Select</option>
-                            <option value="1">Active</option>
-                            <option value="2">DActive</option>
-                        </select>
-                        </div>
-                    </div>
-                   <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Employee Designation<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <select class="form-control" name="status" required>
-                            <option value="">Select</option>
-                            <option value="1">Manager</option>
-                            <option value="2">Director</option>
-                        </select>
-                        </div>
-                    </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Employee Name<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <select class="form-control" name="status" required>
-                            <option value="">Select</option>
-                            <option value="1">Mr. X</option>
-                            <option value="2">Mr Y</option>
-                        </select>
-                        </div>
-                    </div>
-                    <div class="ln_solid">
-                      <div class="form-group">
-                        <div class="col-md-6 offset-md-3">
-                    <button type='submit' class="btn btn-primary">Submit</button>
-                    <button type='reset' class="btn btn-success">Reset</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+                    <center><button class="btn btn-primary">Save</button></center>
               </div>
             </div>
           </div>
-          <p>Notification will be appear pop up wise in employee pannel</p>
+          <h2>When Employee Regin then employee can not be log in to system</h2>
+          <p>Regin Employee List</p>
+          <p>What about regin employee salary</p>
         <div class="col-sm-12">
           <div class="card-box table-responsive">
         <table id="datatable" class="table table-striped table-bordered" style="width:100%">
           <thead>
             <tr>
-              <th>Id</th>
+              <th>SL</th>
               <th>Name</th>
-              <th>Detail</th>
+              <th>Designation</th>
+              <th>Status</th>
               <th>Created</th>
-              <th>Last Update</th>
               <th>Action</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
-              <td>System Architect</td>
-              <td>Active</td>
+              <td>MR. X</td>
+              <td>Manager</td>
+              <td>Pending</td>
               <td>2010/01/02</td>
-              <td>2011/04/25</td>
-              <td><a href="#">Edit</a> | <a href="#">Dective</a></td>
+              <td><a href="#">Edit</a> | <a href="#">Detail</a> | <a href="#">Active</a></td>
             </tr>
           </tbody>
         </table>
