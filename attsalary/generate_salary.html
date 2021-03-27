@@ -153,7 +153,7 @@
             <div class="col-md-12 col-sm-12">
               <div class="x_panel">
                 <div class="x_title">
-                  <h2>Give Employee Attendance<small>Field</small></h2>
+                  <h2>Give Mr. X Employee Record <small>Field</small></h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -172,72 +172,105 @@
                 </div>
                 <div class="x_content">
                   <form class="" action="" method="post" novalidate>
-                    </p>
-                    <span class="section">Select Employee and Date Time for Attendance</span>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Search Employee Name<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
-                          placeholder="ex. John f. Kennedy" required="required" />
-                      </div>
-                    </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Attendance Date<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <input type="date" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
-                          placeholder="ex. John f. Kennedy" required="required" />
-                      </div>
-                    </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Record Date<span
+                     <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align">Select Employee<span
                           class="required">*</span></label>
                       <div class="col-md-6 col-sm-6">
                         <input type="text" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
-                          placeholder="System will save Automatically" required="required" />
-                      </div>
-                    </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">Attendance Status<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <select class="form-control">
-                          <option value="">Present</option>
-                          <option value="">Absent</option>
-                          <option value="">Leave</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="field item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3  label-align">In Time<span
-                          class="required">*</span></label>
-                      <div class="col-md-6 col-sm-6">
-                        <input type="datetime-local" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
                           placeholder="ex. John f. Kennedy" required="required" />
                       </div>
                     </div>
-                     <label class="col-form-label col-md-3 col-sm-3  label-align">Out Time<span
+                    <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Month<span
                           class="required">*</span></label>
                       <div class="col-md-6 col-sm-6">
-                        <input type="datetime-local" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
-                          placeholder="ex. John f. Kennedy" required="required" />
+                        <input type="text" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="January-2021" required="required" />
+                      </div>
+                    </div>
+                    <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align">Select Bonus<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                       <select class="form-control">
+                          <option value="">Eid Bonus</option>
+                       </select>
+                      </div>
+                    </div>
+                    <center><span>Working Days: 24| </span><span>Present: 24| </span><span>Absent: 24| </span><span>Leave: 0</span></center>
+                    <center><span>Salary Basic 10000| </span><span>Present Salary: 12000| </span><span>Increment 0| </span><span> Bonus 2000</span></center>
+                     <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Salary<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                        <input type="text" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="12000" required="required" />
+                      </div>
+                    </div>
+                    <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Salary With Bonus<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                        <input type="text" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="14000" required="required" />
+                      </div>
+                    </div>
+                    <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Extra Bonus<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                        <input type="number" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="0" required="required" />
+                      </div>
+                    </div>
+                     <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Penalty<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                        <input type="number" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="0" required="required" />
+                      </div>
+                    </div>
+                     <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Total Salary<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                        <input type="number" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="14000" required="required" />
+                      </div>
+                    </div>
+                     <div class="field item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3  label-align"> Note<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                        <input type="number" class="form-control" data-validate-length-range="6" data-validate-words="2" name="name"
+                          placeholder="" required="required" />
+                      </div>
+                    </div>
+                      <label class="col-form-label col-md-3 col-sm-3  label-align">Select Account<span
+                          class="required">*</span></label>
+                      <div class="col-md-6 col-sm-6">
+                       <select class="form-control">
+                          <option value="">City Bank</option>
+                       </select>
                       </div>
                     </div>
                     <div class="ln_solid">
                       <div class="form-group">
                         <div class="col-md-6 offset-md-3">
-                    <button type='submit' class="btn btn-primary">Submit</button>
+                    <a href="generate_salary.html" class="btn btn-primary">Search</a>
+                    <a href="generate_salary.html" class="btn btn-warning">Save</a>
                     <button type='reset' class="btn btn-success">Reset</button>
                         </div>
                       </div>
                     </div>
                   </form>
-                  <h3>There will be a button for employee for giving attendance and leaving that day</h3>
                 </div>
               </div>
             </div>
-          </div>        
+          </div>
+        <p></p>
+       
     </div>
     </div>
     </div>
